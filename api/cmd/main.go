@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-    internal.GenerateFromPackage()
+    internal.GenerateFromPackage("../artifacts/graph.json")
 }
